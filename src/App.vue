@@ -1,17 +1,21 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <book-list></book-list>
+    <book-list>
+      <book-item></book-item>
+    </book-list>
   </div>
 </template>
 
 <script>
 import BookList from './components/BookList';
+import BookItem from './components/BookItem';
 
 export default {
   name: 'app',
   components: {
     BookList,
+    BookItem,
   },
 };
 </script>
