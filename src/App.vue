@@ -9,13 +9,11 @@
 
 <script>
 import BookList from './components/BookList';
-import BookItem from './components/BookItem';
 
 export default {
   name: 'app',
   components: {
     BookList,
-    BookItem,
   },
 };
 </script>
